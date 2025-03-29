@@ -1,0 +1,10 @@
+version: '3'
+services:
+ nestjs:
+   image: lucasunc/nestjs-server:1.0
+   restart: always
+   ports:
+     - "3000:3000"
+   pull_policy: always
+
+
